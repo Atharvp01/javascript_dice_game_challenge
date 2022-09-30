@@ -1,0 +1,36 @@
+
+
+*{
+    background-color: rgb(98, 95, 102);
+    box-sizing: border-box;
+}
+
+h1,h2{
+    color: aliceblue;
+    text-align: center;
+
+}
+
+img{
+    border-radius: 40px;
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    margin-top: 150px;
+    min-height: 200px;
+    justify-content: space-evenly;
+}
+
+.first__dice{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.winner h2{
+    margin-top: 50px;
+}
+
