@@ -39,9 +39,9 @@ function diceChangeTwo(){
 
 function winner(){
     if(numOnDiceOne>numOnDicetwo){
-       realWinner = document.getElementById("realWinner").innerText = "Winner is Player 1";
+       realWinner = document.getElementById("realWinner").innerText = "🚩 Winner is Player 1";
     }else if(numOnDiceOne<numOnDicetwo){
-       realWinner = document.getElementById("realWinner").innerText = "Winner is Player 2";
+       realWinner = document.getElementById("realWinner").innerText = "Winner is Player 2 🚩";
     }else{
         realWinner = document.getElementById("realWinner").innerText = "It's a draw!!";
     }
